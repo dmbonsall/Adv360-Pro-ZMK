@@ -71,6 +71,20 @@
       };
     };
 
+  combos {
+    compatible = "zmk,combos";
+    combo_esc {
+        timeout-ms = <50>;
+        key-positions = <65 66>;
+        bindings = <&kp ESC>;
+    };
+    combo_capsword {
+        timeout-ms = <50>;
+        key-positions = <69 70>;
+        bindings = <&caps_word>;
+    };
+  };
+
   /* TODO: capsword*/
   keymap {
     compatible = "zmk,keymap";
