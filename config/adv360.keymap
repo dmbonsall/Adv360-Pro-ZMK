@@ -118,7 +118,7 @@
     compatible = "zmk,combos";
     combo_esc {
         timeout-ms = <50>;
-        key-positions = <65 71>;
+        key-positions = <65 70>;
         bindings = <&kp ESC>;
     };
     combo_capsword {
