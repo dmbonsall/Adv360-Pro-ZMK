@@ -13,7 +13,7 @@
                 46 47 48 49 50 51    \
                 60 61 62 63 64
 
-#define THUMBS_LEFT     35 36 \
+#define THUMBS_L     35 36 \
                            52 \
                      65 66 67 \
 
@@ -23,7 +23,7 @@
                    54 55 56 57 58 59 \
                       71 72 73 74 75
 
-#define THUMBS_RIGHT 37 38    \
+#define THUMBS_R 37 38    \
                      53       \
                      68 69 70 \
 
@@ -40,7 +40,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <KEYS_R>; // List of keys on the right side of the keyboard
+            hold-trigger-key-positions = <KEYS_R THUMBS_L THUMBS_R>; // List of keys on the right side of the keyboard
             hold-trigger-on-release;
         };
         hmr: home_row_mod_right {
@@ -51,7 +51,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <KEYS_L>; // List of keys on the left side of the keyboard
+            hold-trigger-key-positions = <KEYS_L THUMBS_L THUMBS_R>; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
 
