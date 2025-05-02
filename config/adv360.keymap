@@ -150,8 +150,8 @@
         &kp EQUAL &kp N1        &kp N2      &kp N3       &kp N4      &kp N5 &tog 1                                                                                &mo 3 &kp N6 &kp N7      &kp N8       &kp N9      &kp N0           &kp MINUS
         &kp TAB   &kp Q         &kp W       &kp E        &kp R       &kp T  &kp C_VOL_UP                                                                          &none &kp Y  &kp U       &kp I        &kp O       &kp P            &kp BSLH
         &kp ESC   &hml LSHIFT A &hml LALT S &hml LCTRL D &hml LGUI F &kp G  &kp C_VOL_DN               &kp LGUI  &kp LCTRL &kp RGUI  &kp RCTRL                    &none &kp H  &hmr RGUI J &hmr RCTRL K &hmr RALT L &hmr RSHIFT SEMI &kp SQT
-        &kp LSHFT &lt 1 Z       &kp X       &kp C        &kp V       &kp B                                       &kp LALT  &kp RALT                                     &kp N  &kp M       &kp COMMA    &kp DOT     &kp FSLH         &kp RSHFT
-        &mo 2     &none         &none       &kp GRAVE    &kp ESC                         &qt_lt 5 BSPC &lt 2 TAB &kp ESC   &none     &lt 4 ENTER &mt LSHIFT SPACE              &kp UNDER   &kp DQT      &kp LBKT    &kp RBKT         &mo 2
+        &kp LSHFT &lt 1 Z       &kp X       &kp C        &kp V       &kp B                                       &kp LALT  &kp RALT                                     &kp N  &kp M       &kp COMMA    &kp DOT     &lt 4 FSLH       &kp RSHFT
+        &mo 2     &none         &none       &none        &kp GRAVE                       &qt_lt 5 BSPC &lt 2 TAB &kp ESC   &none     &lt 4 ENTER &mt LSHIFT SPACE              &kp UNDER   &none        &kp LBKT    &kp RBKT         &mo 2
       >;
 
     };
@@ -162,7 +162,7 @@
         &none &none      &none    &kp E     &none    &none &none                                                   &none &none &kp KP_N7  &kp KP_N8    &kp KP_N9     &kp KP_MINUS    &none   
         &none &kp LSHIFT &kp LALT &kp LCTRL &kp LGUI &none &none           &none   &none &none &none               &none &none &kp KP_N4  &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &none  
         &none &trans     &none    &none     &none    &none                         &none &none                           &none &kp KP_N1  &kp KP_N2    &kp KP_N3     &kp KP_ENTER    &none    
-        &none &none      &none    &none     &kp ESC            &kp BSPC &kp TAB &none &none &kp ENTER &kp KP_N0                &none      &none        &none         &none           &none
+        &none &none      &none    &none     &none              &kp BSPC &kp TAB &none &none &kp ENTER &kp KP_N0                &none      &none        &none         &none           &none
       >;
     };
     fn { /* 2 */
@@ -190,10 +190,10 @@
       display-name = "Red";    
       bindings = <
         &none &none      &none    &none    &none     &none    &none                                              &mo 3 &none     &none     &none     &none     &none     &none
-        &none &none      &kp LBKT &kp RBKT &kp HASH  &none    &none                                              &none &none     &kp EXCL  &kp CARET &kp BSLH  &none     &none
-        &none &kp DOLLAR &kp LPAR &kp RPAR &kp COLON &kp STAR &none              &none &none &none &none         &none &kp ENTER &kp EQUAL &kp PLUS  &kp MINUS &kp SPACE &none
-        &none &none      &kp LBRC &kp RBRC &kp AT    &none                             &none &none                     &none     &kp PIPE  &kp AMPS  &kp PRCNT &none     &none
-        &none &none      &none    &none    &none                      &kp BSPC &kp TAB &none &none &trans &none                  &none     &none     &none     &none     &none
+        &none &kp LT     &kp LBKT &kp RBKT &kp GT    &kp HASH &none                                              &none &kp PRCNT &kp SQT   &kp EXCL  &kp QMARK &none     &none
+        &none &kp CARET  &kp LPAR &kp RPAR &kp DQT   &kp DLLR &none              &none &none &none &none         &none &kp STAR  &kp EQUAL &kp PLUS  &kp MINUS &none     &none
+        &none &kp BSLH   &kp LBRC &kp RBRC &kp COLON &kp AT                            &none &none                     &kp AMPS  &kp PIPE  &kp COMMA &kp DOT   &trans    &none
+        &none &none      &none    &none    &kp GRAVE                  &kp BSPC &kp TAB &none &none &trans &none                  &kp UNDER &none     &none     &none     &none
       >;
     };
 
