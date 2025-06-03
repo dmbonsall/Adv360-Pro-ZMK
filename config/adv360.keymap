@@ -36,7 +36,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            require-prior-idle-ms = <300>;  // orignally set to 300 from zmk docs
+            require-prior-idle-ms = <200>;  // orignally set to 300 from zmk docs
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
@@ -47,7 +47,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            require-prior-idle-ms = <300>;  // orignally set to 300 from zmk docs
+            require-prior-idle-ms = <200>;  // orignally set to 300 from zmk docs
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
@@ -88,7 +88,7 @@
           #binding-cells = <2>;
           flavor = "balanced";
           tapping-term-ms = <200>;
-          quick-tap-ms = <500>;
+          quick-tap-ms = <300>;
           bindings = <&mo>, <&kp>;
           display-name = "Quick-Tap-Layer-Tap";
       };
